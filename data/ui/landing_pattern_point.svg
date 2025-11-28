@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="SFSP-----------"
+   width="400"
+   height="800"
+   viewBox="0 0 400 800"
+   version="1.1"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="YellowDot.svg">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="0.834386"
+     inkscape:cx="98.421992"
+     inkscape:cy="387.18542"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="SFSP-----------" />
+  <g
+     id="g3"
+     style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:0;stroke-width:100;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(0,400)">
+    <svg
+       viewBox="0 0 400 400"
+       id="_0.SFS------------"
+       width="400"
+       height="400"
+       version="1.1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:0;stroke-width:100;stroke-miterlimit:4;stroke-dasharray:none">
+      <circle
+         cx="200"
+         cy="200"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:100;stroke-opacity:0;stroke-miterlimit:4;stroke-dasharray:none"
+         id="ellipse6"
+         r="144" />
+    </svg>
+  </g>
+  <path
+     inkscape:connector-curvature="0"
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:100;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+     d="M 199.776,176.32842 52.568646,306.68259 347.43135,306.36798 Z m 0.14,41.49713 70.85494,62.39121 -141.50654,0.15731 z"
+     id="rect878" />
+</svg>

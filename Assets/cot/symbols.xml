@@ -1,0 +1,825 @@
+<types>
+<cot cot='a-.-A' desc='Air track' />
+<cot cot='a-.-G' desc='Ground track' />
+<cot cot='a-.-S' desc='Sea surface track' />
+<cot cot='a-.-P' desc='Space track' />
+<cot cot='a-.-F' desc='SOF Unit' />
+<cot cot='a-.-U' desc='Subsurface track' />
+<cot cot='a-.-A-C' desc='Civil' />
+<cot cot='a-.-A-M' desc='Military' />
+<cot cot='a-.-A-W' desc='Weapon' />
+<cot cot='a-.-G-E' desc='Equipment' />
+<cot cot='a-.-G-I' desc='Installation' />
+<cot cot='a-.-G-U' desc='Unit' />
+<cot cot='a-.-S-C' desc='Combatant' />
+<cot cot='a-.-S-N' desc='Noncombatant' />
+<cot cot='a-.-S-X' desc='Non-military' />
+<cot cot='a-.-S-O' desc='Own track' />
+<cot cot='a-.-P-V' desc='Crewed space vehicle' />
+<cot cot='a-.-P-S' desc='Satellite' />
+<cot cot='a-.-P-L' desc='Space launch vehicle' />
+<cot cot='a-.-P-T' desc='Space station' />
+<cot cot='a-.-F-A' desc='Aviation' />
+<cot cot='a-.-F-G' desc='Ground' />
+<cot cot='a-.-F-N' desc='Naval' />
+<cot cot='a-.-F-B' desc='Support' />
+<cot cot='a-.-U-N' desc='Non-submarine' />
+<cot cot='a-.-U-S' desc='Submarine' />
+<cot cot='a-.-U-W-D' desc='Underwater decoy' />
+<cot cot='a-.-U-W' desc='Underwater weapon' />
+<cot cot='a-.-A-C-F' desc='Fixed wing' />
+<cot cot='a-.-A-C-L' desc='Lighter than air' />
+<cot cot='a-.-A-C-H' desc='Rotary wing' />
+<cot cot='a-.-A-M-F' desc='Fixed wing' />
+<cot cot='a-.-A-M-L' desc='Lighter than air' />
+<cot cot='a-.-A-M-H' desc='Rotary wing' />
+<cot cot='a-.-A-W-B' desc='Bomb' />
+<cot cot='a-.-A-W-D' desc='Decoy' />
+<cot cot='a-.-A-W-M' desc='Missile in flight' />
+<cot cot='a-.-G-E-V' desc='Ground vehicle' />
+<cot cot='a-.-G-E-S' desc='Sensor' />
+<cot cot='a-.-G-E-X' desc='Special' />
+<cot cot='a-.-G-E-W' desc='Weapon' />
+<cot cot='a-.-G-I-E' desc='Equipment manufacture' />
+<cot cot='a-.-G-I-G' desc='Government leadership' />
+<cot cot='a-.-G-I-X' desc='Medical facility' />
+<cot cot='a-.-G-I-B' desc='Military base facility' />
+<cot cot='a-.-G-I-M' desc='Military material facility' />
+<cot cot='a-.-G-I-P' desc='Processing facility' />
+<cot cot='a-.-G-I-R' desc='Raw material production storage' />
+<cot cot='a-.-G-I-U' desc='Service, research, utility facility' />
+<cot cot='a-.-G-I-T' desc='Transport facility' />
+<cot cot='a-.-G-U-C' desc='Combat' />
+<cot cot='a-.-G-U-S' desc='Combat service support' />
+<cot cot='a-.-G-U-U' desc='Combat support' />
+<cot cot='a-.-G-U-H' desc='Special C2 headquarters component' />
+<cot cot='a-.-S-C-A' desc='Amphibious warfare ship' />
+<cot cot='a-.-S-C-H' desc='Hovercraft' />
+<cot cot='a-.-S-C-L' desc='Line' />
+<cot cot='a-.-S-C-M' desc='Mine warfare vessel' />
+<cot cot='a-.-S-C-G' desc='Navy group' />
+<cot cot='a-.-S-C-P' desc='Patrol' />
+<cot cot='a-.-S-C-S' desc='Station' />
+<cot cot='a-.-S-C-D' desc='Surface decoy' />
+<cot cot='a-.-S-C-U' desc='Unmanned surface vehicle' />
+<cot cot='a-.-S-N-F' desc='Fleet support (tender tug)' />
+<cot cot='a-.-S-N-M' desc='Hospital ship' />
+<cot cot='a-.-S-N-H' desc='Hovercraft' />
+<cot cot='a-.-S-N-I' desc='Intelligence (oceanographic, agi)' />
+<cot cot='a-.-S-N-S' desc='Service &amp; support harbor (yardcraft, barge, harbor, tug)' />
+<cot cot='a-.-S-N-N' desc='Station' />
+<cot cot='a-.-S-N-R' desc='Underway replenishment (oiler tanker, stores, ammunition, troop transport)' />
+<cot cot='a-.-S-X-F' desc='Fishing' />
+<cot cot='a-.-S-X-H' desc='Hovercraft' />
+<cot cot='a-.-S-X-L' desc='Law enforcement vessel' />
+<cot cot='a-.-S-X-R' desc='Leisure craft' />
+<cot cot='a-.-S-X-M' desc='Merchant' />
+<cot cot='a-.-F-A-F' desc='Fixed wing' />
+<cot cot='a-.-F-A-H' desc='Rotary wing' />
+<cot cot='a-.-F-A-V' desc='VSTOL' />
+<cot cot='a-.-F-G-C' desc='Civil affairs' />
+<cot cot='a-.-F-G-P' desc='Psychological operations (psyop)' />
+<cot cot='a-.-F-G-R' desc='Ranger' />
+<cot cot='a-.-F-G-S' desc='Special forces' />
+<cot cot='a-.-F-N-S' desc='SEAL' />
+<cot cot='a-.-F-N-B' desc='Special boat' />
+<cot cot='a-.-F-N-N' desc='Special ssnr' />
+<cot cot='a-.-F-N-U' desc='Underwater demolition team' />
+<cot cot='a-.-U-N-D' desc='Diver (hardtop diver, scuba diver)' />
+<cot cot='a-.-U-S-C' desc='Conventional propulsion' />
+<cot cot='a-.-U-S-N' desc='Nuclear propulsion' />
+<cot cot='a-.-U-S-O' desc='Other submersible (rescue, research, underwater tug)' />
+<cot cot='a-.-U-S-S' desc='Station' />
+<cot cot='a-.-U-S-F' desc='Surfaced' />
+<cot cot='a-.-U-S-U' desc='Unmanned underwater vehicle (uuv)' />
+<cot cot='a-.-U-W-D-M' desc='Sea mine decoy' />
+<cot cot='a-.-U-W-M' desc='Sea mine' />
+<cot cot='a-.-U-W-T' desc='Torpedo' />
+<cot cot='a-.-A-M-F-D' desc='Airborne command post (C2)' />
+<cot cot='a-.-A-M-F-S' desc='Anti-submarine warfare (ASW) carrier based' />
+<cot cot='a-.-A-M-F-A' desc='Attack strike' />
+<cot cot='a-.-A-M-F-B' desc='Bomber' />
+<cot cot='a-.-A-M-F-C' desc='Cargo airlift (transport)' />
+<cot cot='a-.-A-M-F-H' desc='Combat search and rescue (CSAR)' />
+<cot cot='a-.-A-M-F-Y' desc='Communications (C3I)' />
+<cot cot='a-.-A-M-F-Q' desc='Drone (RPV UAV)' />
+<cot cot='a-.-A-M-F-J' desc='Electronic countermeasures (ECM jammer)' />
+<cot cot='a-.-A-M-F-F' desc='Fighter' />
+<cot cot='a-.-A-M-F-O' desc='Medevac' />
+<cot cot='a-.-A-M-F-P' desc='Patrol' />
+<cot cot='a-.-A-M-F-R' desc='Reconnaissance' />
+<cot cot='a-.-A-M-F-M' desc='Special operations forces (SOF)' />
+<cot cot='a-.-A-M-F-K' desc='Tanker' />
+<cot cot='a-.-A-M-F-T' desc='Trainer' />
+<cot cot='a-.-A-M-F-U' desc='Utility' />
+<cot cot='a-.-A-M-F-L' desc='VSTOL' />
+<cot cot='a-.-A-M-H-D' desc='Airborne command post (C2)' />
+<cot cot='a-.-A-M-H-S' desc='Antisubmarine warfare mpa' />
+<cot cot='a-.-A-M-H-A' desc='Attack' />
+<cot cot='a-.-A-M-H-C' desc='Cargo airlift (transport)' />
+<cot cot='a-.-A-M-H-H' desc='Combat search and rescue (CSAR)' />
+<cot cot='a-.-A-M-H-Q' desc='Drone (RPV UAV)' />
+<cot cot='a-.-A-M-H-J' desc='Electronic countermeasures (ECM jammer)' />
+<cot cot='a-.-A-M-H-O' desc='Medevac' />
+<cot cot='a-.-A-M-H-I' desc='Mine countermeasures' />
+<cot cot='a-.-A-M-H-R' desc='Reconnaissance' />
+<cot cot='a-.-A-M-H-M' desc='Special operations forces (SOF)' />
+<cot cot='a-.-A-M-H-K' desc='Tanker' />
+<cot cot='a-.-A-M-H-T' desc='Trainer' />
+<cot cot='a-.-A-M-H-U' desc='Utility' />
+<cot cot='a-.-A-W-M-A' desc='Air launched missile' />
+<cot cot='a-.-A-W-M-B' desc='Ballistic missile' />
+<cot cot='a-.-A-W-M-C-M' desc='Cruise missile' />
+<cot cot='a-.-A-W-M-U' desc='Subsurface to surface missile (s ssm)' />
+<cot cot='a-.-A-W-M-S' desc='Surface launched missile' />
+<cot cot='a-.-G-E-V-A' desc='Armored' />
+<cot cot='a-.-G-E-V-C' desc='Civilian vehicle' />
+<cot cot='a-.-G-E-V-E' desc='Engineer vehicle' />
+<cot cot='a-.-G-E-V-S' desc='Missile support' />
+<cot cot='a-.-G-E-V-M' desc='Pack animal(s)' />
+<cot cot='a-.-G-E-V-T' desc='Train locomotive' />
+<cot cot='a-.-G-E-V-U' desc='Utility vehicle' />
+<cot cot='a-.-G-E-S-E' desc='Emplaced' />
+<cot cot='a-.-G-E-S-R' desc='Radar' />
+<cot cot='a-.-G-E-X-F' desc='Flame thrower' />
+<cot cot='a-.-G-E-X-M' desc='Land mines' />
+<cot cot='a-.-G-E-X-L' desc='Laser' />
+<cot cot='a-.-G-E-X-I' desc='IED' />
+<cot cot='a-.-G-E-X-N' desc='Nbc equipment' />
+<cot cot='a-.-G-E-W-A' desc='Air defense gun' />
+<cot cot='a-.-G-E-W-G' desc='Anti-tank gun' />
+<cot cot='a-.-G-E-W-T' desc='Antitank rocket launcher' />
+<cot cot='a-.-G-E-W-D' desc='Direct fire gun' />
+<cot cot='a-.-G-E-W-Z' desc='Grenade launcher' />
+<cot cot='a-.-G-E-W-H' desc='Howitzer' />
+<cot cot='a-.-G-E-W-M' desc='Missile launcher' />
+<cot cot='a-.-G-E-W-O' desc='Mortar' />
+<cot cot='a-.-G-E-W-X' desc='Multiple rocket launcher' />
+<cot cot='a-.-G-E-W-R' desc='Rifle automatic weapon' />
+<cot cot='a-.-G-E-W-S' desc='Single rocket launcher' />
+<cot cot='a-.-G-I-X-H' desc='Hospital' />
+<cot cot='a-.-G-I-B-A' desc='Airport airbase' />
+<cot cot='a-.-G-I-B-N' desc='Seaport naval base' />
+<cot cot='a-.-G-I-M-A' desc='Aircraft production &amp; assembly' />
+<cot cot='a-.-G-I-M-E' desc='Ammunition and explosives production' />
+<cot cot='a-.-G-I-M-G' desc='Armament production' />
+<cot cot='a-.-G-I-M-C' desc='Chemical &amp; biological warfare production' />
+<cot cot='a-.-G-I-M-N' desc='Engineering equipment production' />
+<cot cot='a-.-G-I-M-V' desc='Military vehicle production' />
+<cot cot='a-.-G-I-M-M' desc='Missile &amp; space system production' />
+<cot cot='a-.-G-I-M-F' desc='Nuclear energy' />
+<cot cot='a-.-G-I-M-S' desc='Ship construction' />
+<cot cot='a-.-G-I-P-D' desc='Decontamination' />
+<cot cot='a-.-G-I-R-M' desc='Mine' />
+<cot cot='a-.-G-I-R-N' desc='Nbc' />
+<cot cot='a-.-G-I-R-P' desc='Petroleum gas oil' />
+<cot cot='a-.-G-I-U-E' desc='Electric power facility' />
+<cot cot='a-.-G-I-U-P' desc='Public water services' />
+<cot cot='a-.-G-I-U-R' desc='Technological research facility' />
+<cot cot='a-.-G-I-U-T' desc='Telecommunications facility' />
+<cot cot='a-.-G-U-C-D' desc='Air defense' />
+<cot cot='a-.-G-U-C-A-A' desc='Anti armor' />
+<cot cot='a-.-G-U-C-A' desc='Armor' />
+<cot cot='a-.-G-U-C-V' desc='Aviation' />
+<cot cot='a-.-G-U-C-E' desc='Engineer' />
+<cot cot='a-.-G-U-C-F' desc='Field artillery' />
+<cot cot='a-.-G-U-C-I' desc='Infantry' />
+<cot cot='a-.-G-U-C-S' desc='Internal security forces' />
+<cot cot='a-.-G-U-C-M' desc='Missile (SSM)' />
+<cot cot='a-.-G-U-C-R' desc='Reconnaissance' />
+<cot cot='a-.-G-U-S-A' desc='Administrative (admin)' />
+<cot cot='a-.-G-U-S-X' desc='Maintenance' />
+<cot cot='a-.-G-U-S-M' desc='Medical' />
+<cot cot='a-.-G-U-S-S' desc='Supply' />
+<cot cot='a-.-G-U-S-T' desc='Transportation' />
+<cot cot='a-.-G-U-U-E' desc='Explosive ordnance disposal' />
+<cot cot='a-.-G-U-U-I' desc='Information warfare unit' />
+<cot cot='a-.-G-U-U-P' desc='Landing support' />
+<cot cot='a-.-G-U-U-L' desc='Law enforcement unit' />
+<cot cot='a-.-G-U-U-M' desc='Military intelligence' />
+<cot cot='a-.-G-U-U-A' desc='Nbc' />
+<cot cot='a-.-G-U-U-S' desc='Signal unit' />
+<cot cot='a-.-S-C-A-L-A' desc='Assault vessel' />
+<cot cot='a-.-S-C-A-L-C' desc='Landing craft' />
+<cot cot='a-.-S-C-A-L-S' desc='Landing ship' />
+<cot cot='a-.-S-C-L-B-B' desc='Battleship' />
+<cot cot='a-.-S-C-L-C-V' desc='Carrier' />
+<cot cot='a-.-S-C-L-C-C' desc='Cruiser' />
+<cot cot='a-.-S-C-L-D-D' desc='Destroyer' />
+<cot cot='a-.-S-C-L-F-F' desc='Frigate corvette' />
+<cot cot='a-.-S-C-L-L-L' desc='Littoral combatant' />
+<cot cot='a-.-S-C-M-M-A' desc='Mcm support' />
+<cot cot='a-.-S-C-M-M-H' desc='Minehunter' />
+<cot cot='a-.-S-C-M-M-L' desc='Minelayer' />
+<cot cot='a-.-S-C-M-M-S' desc='Minesweeper' />
+<cot cot='a-.-S-G-C' desc='Convoy' />
+<cot cot='a-.-S-G-T' desc='Navy task force' />
+<cot cot='a-.-S-G-G' desc='Navy task group' />
+<cot cot='a-.-S-G-U' desc='Navy task unit' />
+<cot cot='a-.-S-C-P-S-B' desc='Antisubmarine warfare' />
+<cot cot='a-.-S-C-P-S-U' desc='Antisurface warfare' />
+<cot cot='a-.-S-S-A' desc='Asw ship' />
+<cot cot='a-.-S-S-P' desc='Picket' />
+<cot cot='a-.-S-C-U-S' desc='Antisubmarine warfare' />
+<cot cot='a-.-S-C-U-N' desc='Antisurface warfare' />
+<cot cot='a-.-S-C-U-M' desc='Mine countermeasures' />
+<cot cot='a-.-S-N-N-R' desc='Rescue' />
+<cot cot='a-.-S-X-F-D-R' desc='Dredge' />
+<cot cot='a-.-S-X-F-D-F' desc='Drifter' />
+<cot cot='a-.-S-X-F-T-R' desc='Trawler' />
+<cot cot='a-.-S-X-M-C' desc='Cargo' />
+<cot cot='a-.-S-X-M-F' desc='Ferry' />
+<cot cot='a-.-S-X-M-H' desc='Hazardous materials (hazmat)' />
+<cot cot='a-.-S-X-M-O' desc='Oiler tanker' />
+<cot cot='a-.-S-X-M-P' desc='Passenger' />
+<cot cot='a-.-S-X-M-R' desc='Roll on roll off' />
+<cot cot='a-.-S-X-M-T-O' desc='Towing vessel' />
+<cot cot='a-.-S-X-M-T-U' desc='Tug' />
+<cot cot='a-.-F-A-F-A' desc='Attack' />
+<cot cot='a-.-F-A-F-K' desc='Refuel' />
+<cot cot='a-.-F-A-F-U' desc='Utility' />
+<cot cot='a-.-F-A-H-A' desc='Attack' />
+<cot cot='a-.-F-A-H-H' desc='Combat search and rescue' />
+<cot cot='a-.-F-A-H-U' desc='Utility' />
+<cot cot='a-.-F-G-P-A' desc='Fixed wing aviation' />
+<cot cot='a-.-U-S-C-A' desc='Attack (SS)' />
+<cot cot='a-.-U-S-C-B' desc='Ballistic missile (SSB)' />
+<cot cot='a-.-U-S-C-G' desc='Guided missile (SSG)' />
+<cot cot='a-.-U-S-C-M' desc='Missile (type unknown)' />
+<cot cot='a-.-U-S-C-F' desc='Surfaced' />
+<cot cot='a-.-U-S-N-A' desc='Attack (ssn)' />
+<cot cot='a-.-U-S-N-B' desc='Ballistic missile (SSBN)' />
+<cot cot='a-.-U-S-N-G' desc='Guided missile (SSGN)' />
+<cot cot='a-.-U-S-N-M' desc='Missile (type unknown)' />
+<cot cot='a-.-U-S-N-F' desc='Surfaced' />
+<cot cot='a-.-U-S-O-F' desc='Surfaced' />
+<cot cot='a-.-U-S-S-A' desc='Asw submarine' />
+<cot cot='a-.-U-S-U-S' desc='Antisubmarine warfare' />
+<cot cot='a-.-U-S-U-N' desc='Antisurface warfare' />
+<cot cot='a-.-U-S-U-M' desc='Mine warfare' />
+<cot cot='a-.-U-W-M-D' desc='Dealt' />
+<cot cot='a-.-U-W-M-F' desc='Sea mine (floating)' />
+<cot cot='a-.-U-W-M-G' desc='Sea mine (ground)' />
+<cot cot='a-.-U-W-M-M' desc='Sea mine (moored)' />
+<cot cot='a-.-U-W-M-O' desc='Sea mine (other position)' />
+<cot cot='a-.-A-M-F-C-H' desc='Heavy' />
+<cot cot='a-.-A-M-F-C-L' desc='Light' />
+<cot cot='a-.-A-M-F-C-M' desc='Medium' />
+<cot cot='a-.-A-M-F-Q-D' desc='Airborne command post' />
+<cot cot='a-.-A-M-F-Q-S' desc='Anti-submarine warfare (ASW)' />
+<cot cot='a-.-A-M-F-Q-N' desc='Anti-surface warfare (ASUW)' />
+<cot cot='a-.-A-M-F-Q-A' desc='Attack' />
+<cot cot='a-.-A-M-F-Q-B' desc='Bomber' />
+<cot cot='a-.-A-M-F-Q-C' desc='Cargo' />
+<cot cot='a-.-A-M-F-Q-Y' desc='Communications (C3I)' />
+<cot cot='a-.-A-M-F-Q-J' desc='Electronic countermeasures (jammer)' />
+<cot cot='a-.-A-M-F-Q-F' desc='Fighter' />
+<cot cot='a-.-A-M-F-Q-O' desc='Medevac' />
+<cot cot='a-.-A-M-F-Q-I' desc='Mine countermeasures' />
+<cot cot='a-.-A-M-F-Q-P' desc='Patrol' />
+<cot cot='a-.-A-M-F-Q-R' desc='Reconnaissance' />
+<cot cot='a-.-A-M-F-Q-H' desc='Combat search &amp; rescue (CSAR)' />
+<cot cot='a-.-A-M-F-Q-M' desc='Special operations forces (SOF)' />
+<cot cot='a-.-A-M-F-Q-K' desc='Tanker' />
+<cot cot='a-.-A-M-F-Q-T' desc='Trainer' />
+<cot cot='a-.-A-M-F-Q-U' desc='Utility' />
+<cot cot='a-.-A-M-F-Q-L' desc='VSTOL' />
+<cot cot='a-.-A-M-F-F-I' desc='Interceptor' />
+<cot cot='a-.-A-M-F-P-N' desc='Antisurface warfare (ASUW)' />
+<cot cot='a-.-A-M-F-P-M' desc='Mine countermeasures' />
+<cot cot='a-.-A-M-F-R-W' desc='Airborne early warning (AEW)' />
+<cot cot='a-.-A-M-F-R-Z' desc='Electronic surveillance measures' />
+<cot cot='a-.-A-M-F-R-X' desc='Photographic' />
+<cot cot='a-.-A-M-F-K-B' desc='Boom-only' />
+<cot cot='a-.-A-M-F-K-D' desc='Drogue-only' />
+<cot cot='a-.-A-M-F-U-H' desc='Heavy' />
+<cot cot='a-.-A-M-F-U-L' desc='Light' />
+<cot cot='a-.-A-M-F-U-M' desc='Medium' />
+<cot cot='a-.-A-M-H-C-H' desc='Heavy' />
+<cot cot='a-.-A-M-H-C-L' desc='Light' />
+<cot cot='a-.-A-M-H-C-M' desc='Medium' />
+<cot cot='a-.-A-M-H-U-H' desc='Heavy' />
+<cot cot='a-.-A-M-H-U-L' desc='Light' />
+<cot cot='a-.-A-M-H-U-M' desc='Medium' />
+<cot cot='a-.-A-W-M-A-A' desc='Air to air missile (AAM)' />
+<cot cot='a-.-A-W-M-A-P' desc='Air to space missile' />
+<cot cot='a-.-A-W-M-A-S' desc='Air to surface missile (ASM)' />
+<cot cot='a-.-A-W-M-S-B' desc='Anti-ballistic missile (ABM)' />
+<cot cot='a-.-A-W-M-S-A' desc='Surface to air missile (SAM)' />
+<cot cot='a-.-A-W-M-S-U' desc='Surface to subsurface missile' />
+<cot cot='a-.-A-W-M-S-S' desc='Surface to surface missile (SSM)' />
+<cot cot='a-.-G-E-V-A-I' desc='Armored infantry' />
+<cot cot='a-.-G-E-V-A-A' desc='Armored personnel carrier' />
+<cot cot='a-.-G-E-V-A-C' desc='C2V ACV' />
+<cot cot='a-.-G-E-V-A-S' desc='Combat service support vehicle' />
+<cot cot='a-.-G-E-V-A-L' desc='Light armored vehicle' />
+<cot cot='a-.-G-E-V-A-T' desc='Tank' />
+<cot cot='a-.-G-E-V-C-A' desc='Automobile' />
+<cot cot='a-.-G-E-V-C-J' desc='Jeep type vehicle' />
+<cot cot='a-.-G-E-V-C-M' desc='Multi-passenger vehicle' />
+<cot cot='a-.-G-E-V-C-O' desc='Open-bed truck' />
+<cot cot='a-.-G-E-V-C-T' desc='Tractor trailer truck with box trailer' />
+<cot cot='a-.-G-E-V-C-F' desc='Tractor trailer truck with flatbed trailer' />
+<cot cot='a-.-G-E-V-C-U' desc='Utility vehicle' />
+<cot cot='a-.-G-E-V-E-S' desc='Armored assault' />
+<cot cot='a-.-G-E-V-E-R' desc='Armored engineer recon vehicle (AERV)' />
+<cot cot='a-.-G-E-V-E-H' desc='Backhoe' />
+<cot cot='a-.-G-E-V-E-B' desc='Bridge' />
+<cot cot='a-.-G-E-V-E-C' desc='Construction vehicle' />
+<cot cot='a-.-G-E-V-E-D' desc='Dozer' />
+<cot cot='a-.-G-E-V-E-E' desc='Earthmover' />
+<cot cot='a-.-G-E-V-E-F' desc='Ferry transporter' />
+<cot cot='a-.-G-E-V-E-A' desc='Mine clearing vehicle' />
+<cot cot='a-.-G-E-V-E-M' desc='Mine laying vehicle' />
+<cot cot='a-.-G-E-V-S-C' desc='Crane loading device' />
+<cot cot='a-.-G-E-V-S-P' desc='Propellant transporter' />
+<cot cot='a-.-G-E-V-S-T' desc='Transloader' />
+<cot cot='a-.-G-E-V-S-R' desc='Transporter' />
+<cot cot='a-.-G-E-V-S-W' desc='Warhead transporter' />
+<cot cot='a-.-G-E-V-U-A' desc='Ambulance' />
+<cot cot='a-.-G-E-V-U-B' desc='Bus' />
+<cot cot='a-.-G-E-V-U-X' desc='Cross-country truck' />
+<cot cot='a-.-G-E-V-U-L' desc='Limited cross-country truck' />
+<cot cot='a-.-G-E-V-U-S' desc='Semi' />
+<cot cot='a-.-G-E-V-U-T' desc='Tow truck' />
+<cot cot='a-.-G-E-V-U-R' desc='Water craft' />
+<cot cot='a-.-G-E-X-M-C' desc='Claymore' />
+<cot cot='a-.-G-E-X-M-L' desc='Less than lethal' />
+<cot cot='a-.-G-E-W-A-H' desc='Heavy' />
+<cot cot='a-.-G-E-W-A-L' desc='Light' />
+<cot cot='a-.-G-E-W-A-M' desc='Medium' />
+<cot cot='a-.-G-E-W-G-H' desc='Heavy' />
+<cot cot='a-.-G-E-W-G-L' desc='Light' />
+<cot cot='a-.-G-E-W-G-M' desc='Medium' />
+<cot cot='a-.-G-E-W-G-R' desc='Recoilless' />
+<cot cot='a-.-G-E-W-T-H' desc='Heavy' />
+<cot cot='a-.-G-E-W-T-L' desc='Light' />
+<cot cot='a-.-G-E-W-T-M' desc='Medium' />
+<cot cot='a-.-G-E-W-D-H' desc='Heavy' />
+<cot cot='a-.-G-E-W-D-L' desc='Light' />
+<cot cot='a-.-G-E-W-D-M' desc='Medium' />
+<cot cot='a-.-G-E-W-Z-H' desc='Heavy' />
+<cot cot='a-.-G-E-W-Z-L' desc='Light' />
+<cot cot='a-.-G-E-W-Z-M' desc='Medium' />
+<cot cot='a-.-G-E-W-H-H' desc='Heavy' />
+<cot cot='a-.-G-E-W-H-L' desc='Light' />
+<cot cot='a-.-G-E-W-H-M' desc='Medium' />
+<cot cot='a-.-G-E-W-M-A' desc='Air defense (AD)' />
+<cot cot='a-.-G-E-W-M-T' desc='Antitank (AT)' />
+<cot cot='a-.-G-E-W-M-S' desc='Surf-surf (SS)' />
+<cot cot='a-.-G-E-W-O-H' desc='Heavy' />
+<cot cot='a-.-G-E-W-O-L' desc='Light' />
+<cot cot='a-.-G-E-W-O-M' desc='Medium' />
+<cot cot='a-.-G-E-W-X-H' desc='Heavy' />
+<cot cot='a-.-G-E-W-X-L' desc='Light' />
+<cot cot='a-.-G-E-W-X-M' desc='Medium' />
+<cot cot='a-.-G-E-W-R-H' desc='Heavy machine gun' />
+<cot cot='a-.-G-E-W-R-L' desc='Light machine gun' />
+<cot cot='a-.-G-E-W-R-R' desc='Rifle' />
+<cot cot='a-.-G-E-W-S-H' desc='Heavy' />
+<cot cot='a-.-G-E-W-S-L' desc='Light' />
+<cot cot='a-.-G-E-W-S-M' desc='Medium' />
+<cot cot='a-.-G-I-M-N-B' desc='Bridge' />
+<cot cot='a-.-G-I-M-F-A' desc='Atomic energy reactor' />
+<cot cot='a-.-G-I-M-F-P' desc='Nuclear material production' />
+<cot cot='a-.-G-I-M-F-S' desc='Nuclear material storage' />
+<cot cot='a-.-G-I-R-N-B' desc='Biological' />
+<cot cot='a-.-G-I-R-N-C' desc='Chemical' />
+<cot cot='a-.-G-I-R-N-N' desc='Nuclear' />
+<cot cot='a-.-G-I-U-E-D' desc='Dam' />
+<cot cot='a-.-G-I-U-E-F' desc='Fossil fuel' />
+<cot cot='a-.-G-I-U-E-N' desc='Nuclear plant' />
+<cot cot='a-.-G-U-C-D-C' desc='Composite' />
+<cot cot='a-.-G-U-C-D-G' desc='Gun unit' />
+<cot cot='a-.-G-U-C-D-M' desc='Missile' />
+<cot cot='a-.-G-U-C-D-S' desc='Short range' />
+<cot cot='a-.-G-U-C-D-T' desc='Targeting unit' />
+<cot cot='a-.-G-U-C-D-O' desc='Theater missile defense unit' />
+<cot cot='a-.-G-U-C-A-A-S' desc='Air assault' />
+<cot cot='a-.-G-U-C-A-A-M' desc='Airborne' />
+<cot cot='a-.-G-U-C-A-A-C' desc='Arctic' />
+<cot cot='a-.-G-U-C-A-A-A' desc='Armored' />
+<cot cot='a-.-G-U-C-A-A-D' desc='Dismounted' />
+<cot cot='a-.-G-U-C-A-A-L' desc='Light' />
+<cot cot='a-.-G-U-C-A-A-O' desc='Motorized' />
+<cot cot='a-.-G-U-C-A-A-U' desc='Mountain' />
+<cot cot='a-.-G-U-C-A-T' desc='Track' />
+<cot cot='a-.-G-U-C-A-W' desc='Wheeled' />
+<cot cot='a-.-G-U-C-V-C' desc='Composite' />
+<cot cot='a-.-G-U-C-V-F' desc='Fixed wing' />
+<cot cot='a-.-G-U-C-V-R' desc='Rotary wing' />
+<cot cot='a-.-G-U-C-V-S' desc='Search and rescue' />
+<cot cot='a-.-G-U-C-V-U' desc='Unmanned aerial vehicle' />
+<cot cot='a-.-G-U-C-V-V' desc='Vertical short takeoff and landing (VSTOL)' />
+<cot cot='a-.-G-U-C-E-C' desc='Combat' />
+<cot cot='a-.-G-U-C-E-N' desc='Construction' />
+<cot cot='a-.-G-U-C-F-S' desc='Artillery survey' />
+<cot cot='a-.-G-U-C-F-H' desc='Howitzer gun' />
+<cot cot='a-.-G-U-C-F-O' desc='Meteorological' />
+<cot cot='a-.-G-U-C-F-M' desc='Mortar' />
+<cot cot='a-.-G-U-C-F-R' desc='Rocket' />
+<cot cot='a-.-G-U-C-F-T' desc='Target acquisition' />
+<cot cot='a-.-G-U-C-I-S' desc='Air assault' />
+<cot cot='a-.-G-U-C-I-A' desc='Airborne' />
+<cot cot='a-.-G-U-C-I-C' desc='Arctic' />
+<cot cot='a-.-G-U-C-I-I' desc='Infantry fighting vehicle' />
+<cot cot='a-.-G-U-C-I-L' desc='Light' />
+<cot cot='a-.-G-U-C-I-Z' desc='Mechanized' />
+<cot cot='a-.-G-U-C-I-M' desc='Motorized' />
+<cot cot='a-.-G-U-C-I-O' desc='Mountain' />
+<cot cot='a-.-G-U-C-I-N' desc='Naval' />
+<cot cot='a-.-G-U-C-S-A' desc='Aviation' />
+<cot cot='a-.-G-U-C-S-G' desc='Ground' />
+<cot cot='a-.-G-U-C-S-R' desc='Railroad' />
+<cot cot='a-.-G-U-C-S-W' desc='Riverine' />
+<cot cot='a-.-G-U-C-S-M' desc='Wheeled mechanized' />
+<cot cot='a-.-G-U-C-M-S' desc='Strategic' />
+<cot cot='a-.-G-U-C-M-T' desc='Tactical' />
+<cot cot='a-.-G-U-C-R-S' desc='Air assault' />
+<cot cot='a-.-G-U-C-R-A' desc='Airborne' />
+<cot cot='a-.-G-U-C-R-C' desc='Arctic' />
+<cot cot='a-.-G-U-C-R-V' desc='Cavalry' />
+<cot cot='a-.-G-U-C-R-H' desc='Horse' />
+<cot cot='a-.-G-U-C-R-L' desc='Light' />
+<cot cot='a-.-G-U-C-R-X' desc='Long range surveillance (LRS)' />
+<cot cot='a-.-G-U-C-R-R' desc='Marine' />
+<cot cot='a-.-G-U-C-R-O' desc='Mountain' />
+<cot cot='a-.-G-U-S-A-C' desc='Corps' />
+<cot cot='a-.-G-U-S-A-F' desc='Finance' />
+<cot cot='a-.-G-U-S-A-J' desc='Judge advocate general (JAG)' />
+<cot cot='a-.-G-U-S-A-L' desc='Labor' />
+<cot cot='a-.-G-U-S-A-W' desc='Morale, welfare, recreation (MWR)' />
+<cot cot='a-.-G-U-S-A-M' desc='Mortuary graves registry' />
+<cot cot='a-.-G-U-S-A-S' desc='Personnel services' />
+<cot cot='a-.-G-U-S-A-O' desc='Postal' />
+<cot cot='a-.-G-U-S-A-P' desc='Public affairs' />
+<cot cot='a-.-G-U-S-A-Q' desc='Quartermaster (supply)' />
+<cot cot='a-.-G-U-S-A-R' desc='Religious chaplain' />
+<cot cot='a-.-G-U-S-A-X' desc='Replacement holding unit (RHU)' />
+<cot cot='a-.-G-U-S-A-T' desc='Theater' />
+<cot cot='a-.-G-U-S-X-C' desc='Corps' />
+<cot cot='a-.-G-U-S-X-E' desc='Electro-optical' />
+<cot cot='a-.-G-U-S-X-H' desc='Heavy' />
+<cot cot='a-.-G-U-S-X-O' desc='Ordnance' />
+<cot cot='a-.-G-U-S-X-R' desc='Recovery' />
+<cot cot='a-.-G-U-S-X-T' desc='Theater' />
+<cot cot='a-.-G-U-S-M-C' desc='Corps' />
+<cot cot='a-.-G-U-S-M-D' desc='Dental' />
+<cot cot='a-.-G-U-S-M-M' desc='Medical treatment facility' />
+<cot cot='a-.-G-U-S-M-P' desc='Psychological' />
+<cot cot='a-.-G-U-S-M-T' desc='Theater' />
+<cot cot='a-.-G-U-S-M-V' desc='Veterinary' />
+<cot cot='a-.-G-U-S-S-1' desc='Class I' />
+<cot cot='a-.-G-U-S-S-2' desc='Class II' />
+<cot cot='a-.-G-U-S-S-3' desc='Class III' />
+<cot cot='a-.-G-U-S-S-4' desc='Class IV' />
+<cot cot='a-.-G-U-S-S-5' desc='Class V' />
+<cot cot='a-.-G-U-S-S-6' desc='Class VI' />
+<cot cot='a-.-G-U-S-S-7' desc='Class VII' />
+<cot cot='a-.-G-U-S-S-8' desc='Class VIII' />
+<cot cot='a-.-G-U-S-S-9' desc='Class IX' />
+<cot cot='a-.-G-U-S-S-X' desc='Class X' />
+<cot cot='a-.-G-U-S-S-C' desc='Corps' />
+<cot cot='a-.-G-U-S-S-L' desc='Laundry bath' />
+<cot cot='a-.-G-U-S-S-T' desc='Theater' />
+<cot cot='a-.-G-U-S-S-W' desc='Water' />
+<cot cot='a-.-G-U-S-T-A' desc='APOD APOE' />
+<cot cot='a-.-G-U-S-T-C' desc='Corps' />
+<cot cot='a-.-G-U-S-T-I' desc='Missile' />
+<cot cot='a-.-G-U-S-T-M' desc='Movement control center (MCC)' />
+<cot cot='a-.-G-U-S-T-R' desc='Railhead' />
+<cot cot='a-.-G-U-S-T-S' desc='SPOD SPOE' />
+<cot cot='a-.-G-U-S-T-T' desc='Theater' />
+<cot cot='a-.-G-U-U-L-D' desc='Central intelligence division (CID)' />
+<cot cot='a-.-G-U-U-L-C' desc='Civilian law enforcement' />
+<cot cot='a-.-G-U-U-L-M' desc='Military police' />
+<cot cot='a-.-G-U-U-L-F' desc='Security police (air)' />
+<cot cot='a-.-G-U-U-L-S' desc='Shore patrol' />
+<cot cot='a-.-G-U-U-M-A' desc='Aerial exploitation' />
+<cot cot='a-.-G-U-U-M-C' desc='Counter intelligence' />
+<cot cot='a-.-G-U-U-M-Q' desc='Interrogation' />
+<cot cot='a-.-G-U-U-M-J' desc='Joint intelligence center' />
+<cot cot='a-.-G-U-U-M-O' desc='Operations' />
+<cot cot='a-.-G-U-U-M-S' desc='Signal intelligence (SIGINT)' />
+<cot cot='a-.-G-U-U-M-R' desc='Surveillance' />
+<cot cot='a-.-G-U-U-M-T' desc='Tactical exploit' />
+<cot cot='a-.-G-U-U-A-B' desc='Biological' />
+<cot cot='a-.-G-U-U-A-C' desc='Chemical' />
+<cot cot='a-.-G-U-U-A-D' desc='Decontamination' />
+<cot cot='a-.-G-U-U-A-N' desc='Nuclear' />
+<cot cot='a-.-G-U-U-S-A' desc='Area' />
+<cot cot='a-.-G-U-U-S-O' desc='Command operations' />
+<cot cot='a-.-G-U-U-S-C' desc='Communication configured package' />
+<cot cot='a-.-G-U-U-S-X' desc='Electronic ranging' />
+<cot cot='a-.-G-U-U-S-F' desc='Forward communications' />
+<cot cot='a-.-G-U-U-S-M' desc='Multiple subscriber element' />
+<cot cot='a-.-G-U-U-S-R' desc='Radio unit' />
+<cot cot='a-.-G-U-U-S-S' desc='Signal support' />
+<cot cot='a-.-G-U-U-S-W' desc='Telephone switch' />
+<cot cot='a-.-S-C-A-L-S-M' desc='Medium' />
+<cot cot='a-.-S-C-A-L-S-T' desc='Tank' />
+<cot cot='a-.-S-C-L-L-L-A-S' desc='Antisubmarine warfare mission package' />
+<cot cot='a-.-S-C-L-L-L-M-I' desc='Mine warfare mission package' />
+<cot cot='a-.-S-C-L-L-L-S-U' desc='Surface warfare (SUW) mission package' />
+<cot cot='a-.-S-C-P-S-U-M' desc='Anti-ship missile' />
+<cot cot='a-.-S-C-P-S-U-G' desc='Gun' />
+<cot cot='a-.-S-C-P-S-U-T' desc='Torpedo' />
+<cot cot='a-.-F-A-F-U-H' desc='Heavy' />
+<cot cot='a-.-F-A-F-U-L' desc='Light' />
+<cot cot='a-.-F-A-F-U-M' desc='Medium' />
+<cot cot='a-.-F-A-H-U-H' desc='Heavy' />
+<cot cot='a-.-F-A-H-U-L' desc='Light' />
+<cot cot='a-.-F-A-H-U-M' desc='Medium' />
+<cot cot='a-.-U-W-M-F-D' desc='Dealt' />
+<cot cot='a-.-U-W-M-G-D' desc='Dealt' />
+<cot cot='a-.-U-W-M-M-D' desc='Dealt' />
+<cot cot='a-.-U-W-M-O-D' desc='Dealt' />
+<cot cot='a-.-A-M-F-Q-R-W' desc='Airborne early warning (AEW)' />
+<cot cot='a-.-A-M-F-Q-R-Z' desc='Electronic surveillance measures' />
+<cot cot='a-.-A-M-F-Q-R-X' desc='Photographic' />
+<cot cot='a-.-G-E-V-A-A-R' desc='Recovery' />
+<cot cot='a-.-G-E-V-A-T-H' desc='Heavy' />
+<cot cot='a-.-G-E-V-A-T-L' desc='Light' />
+<cot cot='a-.-G-E-V-A-T-M' desc='Medium' />
+<cot cot='a-.-G-E-V-C-A-L' desc='Compact' />
+<cot cot='a-.-G-E-V-C-A-M' desc='Midsize' />
+<cot cot='a-.-G-E-V-C-A-H' desc='Sedan' />
+<cot cot='a-.-G-E-V-C-J-H' desc='Large heavy' />
+<cot cot='a-.-G-E-V-C-J-M' desc='Medium' />
+<cot cot='a-.-G-E-V-C-J-L' desc='Small light' />
+<cot cot='a-.-G-E-V-C-M-H' desc='Large bus' />
+<cot cot='a-.-G-E-V-C-M-M' desc='Small bus' />
+<cot cot='a-.-G-E-V-C-M-L' desc='Van' />
+<cot cot='a-.-G-E-V-C-O-H' desc='Large' />
+<cot cot='a-.-G-E-V-C-O-L' desc='Pickup' />
+<cot cot='a-.-G-E-V-C-O-M' desc='Small' />
+<cot cot='a-.-G-E-V-C-T-H' desc='Large heavy box trailer' />
+<cot cot='a-.-G-E-V-C-T-M' desc='Medium box trailer' />
+<cot cot='a-.-G-E-V-C-T-L' desc='Small light box trailer' />
+<cot cot='a-.-G-E-V-C-F-H' desc='Large heavy flatbed trailer' />
+<cot cot='a-.-G-E-V-C-F-M' desc='Medium flatbed trailer' />
+<cot cot='a-.-G-E-V-C-F-L' desc='Small light flatbed trailer' />
+<cot cot='a-.-G-E-V-C-U-H' desc='Large box truck' />
+<cot cot='a-.-G-E-V-C-U-M' desc='Small box truck' />
+<cot cot='a-.-G-E-V-C-U-L' desc='Sport utility vehicle (SUV)' />
+<cot cot='a-.-G-E-V-E-D-A' desc='Armored' />
+<cot cot='a-.-G-E-V-E-A-A' desc='Armored vehicle mounted' />
+<cot cot='a-.-G-E-V-E-A-T' desc='Trailer mounted' />
+<cot cot='a-.-G-E-V-E-M-V' desc='Armored carrier with volcano' />
+<cot cot='a-.-G-E-V-E-M-L' desc='Truck mounted with volcano' />
+<cot cot='a-.-G-E-V-U-A-A' desc='Armored' />
+<cot cot='a-.-G-E-V-U-S-H' desc='Heavy' />
+<cot cot='a-.-G-E-V-U-S-L' desc='Light' />
+<cot cot='a-.-G-E-V-U-S-M' desc='Medium' />
+<cot cot='a-.-G-E-V-U-T-H' desc='Heavy' />
+<cot cot='a-.-G-E-V-U-T-L' desc='Light' />
+<cot cot='a-.-G-E-W-D-H-S' desc='Self-propelled' />
+<cot cot='a-.-G-E-W-D-L-S' desc='Self-propelled' />
+<cot cot='a-.-G-E-W-D-M-S' desc='Self-propelled' />
+<cot cot='a-.-G-E-W-H-H-S' desc='Self-propelled' />
+<cot cot='a-.-G-E-W-H-L-S' desc='Self-propelled' />
+<cot cot='a-.-G-E-W-H-M-S' desc='Self-propelled' />
+<cot cot='a-.-G-E-W-M-A-I' desc='Intermediate range' />
+<cot cot='a-.-G-E-W-M-A-L' desc='Long range' />
+<cot cot='a-.-G-E-W-M-A-S' desc='Short range' />
+<cot cot='a-.-G-E-W-M-A-T' desc='Theater' />
+<cot cot='a-.-G-E-W-M-T-H' desc='Heavy' />
+<cot cot='a-.-G-E-W-M-T-L' desc='Light' />
+<cot cot='a-.-G-E-W-M-T-M' desc='Medium' />
+<cot cot='a-.-G-E-W-M-S-I' desc='Intermediate range' />
+<cot cot='a-.-G-E-W-M-S-L' desc='Long range' />
+<cot cot='a-.-G-E-W-M-S-S' desc='Short range' />
+<cot cot='a-.-G-I-M-F-P-W' desc='Weapons grade' />
+<cot cot='a-.-G-U-C-D-H' desc='H mad' />
+<cot cot='a-.-G-U-C-D-M-H' desc='Heavy' />
+<cot cot='a-.-G-U-C-D-M-L' desc='Light' />
+<cot cot='a-.-G-U-C-D-M-M' desc='Medium' />
+<cot cot='a-.-G-U-C-D-S-C' desc='Chaparral' />
+<cot cot='a-.-G-U-C-D-S-S' desc='Stinger' />
+<cot cot='a-.-G-U-C-D-S-V' desc='Vulcan' />
+<cot cot='a-.-G-U-C-A-A-A-S' desc='Air assault' />
+<cot cot='a-.-G-U-C-A-A-A-T' desc='Tracked' />
+<cot cot='a-.-G-U-C-A-A-A-W' desc='Wheeled' />
+<cot cot='a-.-G-U-C-A-A-O-S' desc='Air assault' />
+<cot cot='a-.-G-U-C-A-T-A' desc='Airborne' />
+<cot cot='a-.-G-U-C-A-T-W' desc='Amphibious' />
+<cot cot='a-.-G-U-C-A-T-H' desc='Heavy' />
+<cot cot='a-.-G-U-C-A-T-L' desc='Light' />
+<cot cot='a-.-G-U-C-A-T-M' desc='Medium' />
+<cot cot='a-.-G-U-C-A-T-R' desc='Recovery' />
+<cot cot='a-.-G-U-C-A-W-S' desc='Air assault' />
+<cot cot='a-.-G-U-C-A-W-A' desc='Airborne' />
+<cot cot='a-.-G-U-C-A-W-W' desc='Amphibious' />
+<cot cot='a-.-G-U-C-A-W-H' desc='Heavy' />
+<cot cot='a-.-G-U-C-A-W-L' desc='Light' />
+<cot cot='a-.-G-U-C-A-W-M' desc='Medium' />
+<cot cot='a-.-G-U-C-A-W-R' desc='Recovery' />
+<cot cot='a-.-G-U-C-V-F-A' desc='Attack' />
+<cot cot='a-.-G-U-C-V-F-R' desc='Recon' />
+<cot cot='a-.-G-U-C-V-F-U' desc='Utility' />
+<cot cot='a-.-G-U-C-V-R-W' desc='Anti-submarine warfare' />
+<cot cot='a-.-G-U-C-V-R-A' desc='Attack' />
+<cot cot='a-.-G-U-C-V-R-C' desc='C2' />
+<cot cot='a-.-G-U-C-V-R-E' desc='Medevac' />
+<cot cot='a-.-G-U-C-V-R-M' desc='Mine countermeasure' />
+<cot cot='a-.-G-U-C-V-R-S' desc='Scout' />
+<cot cot='a-.-G-U-C-V-R-U' desc='Utility' />
+<cot cot='a-.-G-U-C-V-U-F' desc='Fixed wing' />
+<cot cot='a-.-G-U-C-V-U-R' desc='Rotary wing' />
+<cot cot='a-.-G-U-C-E-C-S' desc='Air assault' />
+<cot cot='a-.-G-U-C-E-C-A' desc='Airborne' />
+<cot cot='a-.-G-U-C-E-C-C' desc='Arctic' />
+<cot cot='a-.-G-U-C-E-C-H' desc='Heavy' />
+<cot cot='a-.-G-U-C-E-C-L' desc='Light (sapper)' />
+<cot cot='a-.-G-U-C-E-C-T' desc='Mechanized (track)' />
+<cot cot='a-.-G-U-C-E-C-M' desc='Medium' />
+<cot cot='a-.-G-U-C-E-C-W' desc='Motorized' />
+<cot cot='a-.-G-U-C-E-C-O' desc='Mountain' />
+<cot cot='a-.-G-U-C-E-C-R' desc='Recon' />
+<cot cot='a-.-G-U-C-E-N-N' desc='Naval' />
+<cot cot='a-.-G-U-C-F-S-S' desc='Air assault' />
+<cot cot='a-.-G-U-C-F-S-A' desc='Airborne' />
+<cot cot='a-.-G-U-C-F-S-L' desc='Light' />
+<cot cot='a-.-G-U-C-F-S-O' desc='Mountain' />
+<cot cot='a-.-G-U-C-F-H-S' desc='Air assault' />
+<cot cot='a-.-G-U-C-F-H-A' desc='Airborne' />
+<cot cot='a-.-G-U-C-F-H-X' desc='Amphibious' />
+<cot cot='a-.-G-U-C-F-H-C' desc='Arctic' />
+<cot cot='a-.-G-U-C-F-H-H' desc='Heavy' />
+<cot cot='a-.-G-U-C-F-H-L' desc='Light' />
+<cot cot='a-.-G-U-C-F-H-M' desc='Medium' />
+<cot cot='a-.-G-U-C-F-H-O' desc='Mountain' />
+<cot cot='a-.-G-U-C-F-H-E' desc='Self-propelled' />
+<cot cot='a-.-G-U-C-F-O-S' desc='Air assault' />
+<cot cot='a-.-G-U-C-F-O-A' desc='Airborne' />
+<cot cot='a-.-G-U-C-F-O-L' desc='Light' />
+<cot cot='a-.-G-U-C-F-O-O' desc='Mountain' />
+<cot cot='a-.-G-U-C-F-M-L' desc='Amphibious' />
+<cot cot='a-.-G-U-C-F-M-S' desc='Self-propelled tracked' />
+<cot cot='a-.-G-U-C-F-M-W' desc='Self-propelled wheeled' />
+<cot cot='a-.-G-U-C-F-M-T' desc='Towed' />
+<cot cot='a-.-G-U-C-F-R-M' desc='Multi rocket launcher' />
+<cot cot='a-.-G-U-C-F-R-S' desc='Single rocket launcher' />
+<cot cot='a-.-G-U-C-F-T-A' desc='Anglico' />
+<cot cot='a-.-G-U-C-F-T-C' desc='Colt fist' />
+<cot cot='a-.-G-U-C-F-T-F' desc='Flash (optical)' />
+<cot cot='a-.-G-U-C-F-T-R' desc='Radar' />
+<cot cot='a-.-G-U-C-F-T-S' desc='Sound' />
+<cot cot='a-.-G-U-C-S-G-D' desc='Dismounted' />
+<cot cot='a-.-G-U-C-S-G-A' desc='Mechanized' />
+<cot cot='a-.-G-U-C-S-G-M' desc='Motorized' />
+<cot cot='a-.-G-U-C-R-V-O' desc='Air' />
+<cot cot='a-.-G-U-C-R-V-A' desc='Armored' />
+<cot cot='a-.-G-U-C-R-V-G' desc='Ground' />
+<cot cot='a-.-G-U-C-R-V-M' desc='Motorized' />
+<cot cot='a-.-G-U-C-R-R-D' desc='Division' />
+<cot cot='a-.-G-U-C-R-R-F' desc='Force' />
+<cot cot='a-.-G-U-C-R-R-L' desc='Light armored reconnaissnace (LAR)' />
+<cot cot='a-.-G-U-S-A-F-C' desc='Corps' />
+<cot cot='a-.-G-U-S-A-F-T' desc='Theater' />
+<cot cot='a-.-G-U-S-A-J-C' desc='Corps' />
+<cot cot='a-.-G-U-S-A-J-T' desc='Theater' />
+<cot cot='a-.-G-U-S-A-L-C' desc='Corps' />
+<cot cot='a-.-G-U-S-A-L-T' desc='Theater' />
+<cot cot='a-.-G-U-S-A-W-C' desc='Corps' />
+<cot cot='a-.-G-U-S-A-W-T' desc='Theater' />
+<cot cot='a-.-G-U-S-A-M-C' desc='Corps' />
+<cot cot='a-.-G-U-S-A-M-T' desc='Theater' />
+<cot cot='a-.-G-U-S-A-S-C' desc='Corps' />
+<cot cot='a-.-G-U-S-A-S-T' desc='Theater' />
+<cot cot='a-.-G-U-S-A-O-C' desc='Corps' />
+<cot cot='a-.-G-U-S-A-O-T' desc='Theater' />
+<cot cot='a-.-G-U-S-A-P-B' desc='Broadcast' />
+<cot cot='a-.-G-U-S-A-P-C' desc='Corps' />
+<cot cot='a-.-G-U-S-A-P-M' desc='Joint information bureau (JIB)' />
+<cot cot='a-.-G-U-S-A-P-T' desc='Theater' />
+<cot cot='a-.-G-U-S-A-Q-C' desc='Corps' />
+<cot cot='a-.-G-U-S-A-Q-T' desc='Theater' />
+<cot cot='a-.-G-U-S-A-R-C' desc='Corps' />
+<cot cot='a-.-G-U-S-A-R-T' desc='Theater' />
+<cot cot='a-.-G-U-S-A-X-C' desc='Corps' />
+<cot cot='a-.-G-U-S-A-X-T' desc='Theater' />
+<cot cot='a-.-G-U-S-X-E-C' desc='Corps' />
+<cot cot='a-.-G-U-S-X-E-T' desc='Theater' />
+<cot cot='a-.-G-U-S-X-H-C' desc='Corps' />
+<cot cot='a-.-G-U-S-X-H-T' desc='Theater' />
+<cot cot='a-.-G-U-S-X-O-C' desc='Corps' />
+<cot cot='a-.-G-U-S-X-O-M' desc='Missile' />
+<cot cot='a-.-G-U-S-X-O-T' desc='Theater' />
+<cot cot='a-.-G-U-S-X-R-C' desc='Corps' />
+<cot cot='a-.-G-U-S-X-R-T' desc='Theater' />
+<cot cot='a-.-G-U-S-M-D-C' desc='Corps' />
+<cot cot='a-.-G-U-S-M-D-T' desc='Theater' />
+<cot cot='a-.-G-U-S-M-M-C' desc='Corps' />
+<cot cot='a-.-G-U-S-M-M-T' desc='Theater' />
+<cot cot='a-.-G-U-S-M-P-C' desc='Corps' />
+<cot cot='a-.-G-U-S-M-P-T' desc='Theater' />
+<cot cot='a-.-G-U-S-M-V-C' desc='Corps' />
+<cot cot='a-.-G-U-S-M-V-T' desc='Theater' />
+<cot cot='a-.-G-U-S-S-1-C' desc='Corps' />
+<cot cot='a-.-G-U-S-S-1-T' desc='Theater' />
+<cot cot='a-.-G-U-S-S-2-C' desc='Corps' />
+<cot cot='a-.-G-U-S-S-2-T' desc='Theater' />
+<cot cot='a-.-G-U-S-S-3-A' desc='Aviation' />
+<cot cot='a-.-G-U-S-S-3-C' desc='Corps' />
+<cot cot='a-.-G-U-S-S-3-T' desc='Theater' />
+<cot cot='a-.-G-U-S-S-4-C' desc='Corps' />
+<cot cot='a-.-G-U-S-S-4-T' desc='Theater' />
+<cot cot='a-.-G-U-S-S-9-C' desc='Corps' />
+<cot cot='a-.-G-U-S-S-9-T' desc='Theater' />
+<cot cot='a-.-G-U-S-S-5-C' desc='Corps' />
+<cot cot='a-.-G-U-S-S-5-T' desc='Theater' />
+<cot cot='a-.-G-U-S-S-6-C' desc='Corps' />
+<cot cot='a-.-G-U-S-S-6-T' desc='Theater' />
+<cot cot='a-.-G-U-S-S-7-C' desc='Corps' />
+<cot cot='a-.-G-U-S-S-7-T' desc='Theater' />
+<cot cot='a-.-G-U-S-S-8-C' desc='Corps' />
+<cot cot='a-.-G-U-S-S-8-T' desc='Theater' />
+<cot cot='a-.-G-U-S-S-X-C' desc='Corps' />
+<cot cot='a-.-G-U-S-S-X-T' desc='Theater' />
+<cot cot='a-.-G-U-S-S-L-C' desc='Corps' />
+<cot cot='a-.-G-U-S-S-L-T' desc='Theater' />
+<cot cot='a-.-G-U-S-S-W-C' desc='Corps' />
+<cot cot='a-.-G-U-S-S-W-P' desc='Purification' />
+<cot cot='a-.-G-U-S-S-W-T' desc='Theater' />
+<cot cot='a-.-G-U-S-T-A-C' desc='Corps' />
+<cot cot='a-.-G-U-S-T-A-T' desc='Theater' />
+<cot cot='a-.-G-U-S-T-I-C' desc='Corps' />
+<cot cot='a-.-G-U-S-T-I-T' desc='Theater' />
+<cot cot='a-.-G-U-S-T-M-C' desc='Corps' />
+<cot cot='a-.-G-U-S-T-M-T' desc='Theater' />
+<cot cot='a-.-G-U-S-T-R-C' desc='Corps' />
+<cot cot='a-.-G-U-S-T-R-T' desc='Theater' />
+<cot cot='a-.-G-U-S-T-S-C' desc='Corps' />
+<cot cot='a-.-G-U-S-T-S-T' desc='Theater' />
+<cot cot='a-.-G-U-U-M-S-E' desc='Electronic warfare' />
+<cot cot='a-.-G-U-U-M-R-X' desc='Ground station module' />
+<cot cot='a-.-G-U-U-M-R-G' desc='Ground surveillance radar' />
+<cot cot='a-.-G-U-U-M-R-O' desc='Meteorological' />
+<cot cot='a-.-G-U-U-M-R-S' desc='Sensor' />
+<cot cot='a-.-G-U-U-A-B-R' desc='Recon equipped' />
+<cot cot='a-.-G-U-U-A-C-R' desc='Recon' />
+<cot cot='a-.-G-U-U-A-C-S' desc='Smoke' />
+<cot cot='a-.-G-U-U-A-C-C' desc='Smoke decon' />
+<cot cot='a-.-G-U-U-S-C-L' desc='Large communication configured package (LCCP)' />
+<cot cot='a-.-G-U-U-S-M-L' desc='Large extension node' />
+<cot cot='a-.-G-U-U-S-M-N' desc='Node center' />
+<cot cot='a-.-G-U-U-S-M-S' desc='Small extension node' />
+<cot cot='a-.-G-U-U-S-R-W' desc='Relay' />
+<cot cot='a-.-G-U-U-S-R-S' desc='Tactical satellite' />
+<cot cot='a-.-G-U-U-S-R-T' desc='Teletype center' />
+<cot cot='a-.-G-E-V-A-T-H-R' desc='Recovery' />
+<cot cot='a-.-G-E-V-A-T-L-R' desc='Recovery' />
+<cot cot='a-.-G-E-V-A-T-M-R' desc='Recovery' />
+<cot cot='a-.-G-E-W-M-A-I-E' desc='TELAR' />
+<cot cot='a-.-G-E-W-M-A-I-R' desc='TLAR' />
+<cot cot='a-.-G-E-W-M-A-L-E' desc='TELAR' />
+<cot cot='a-.-G-E-W-M-A-L-R' desc='TLAR' />
+<cot cot='a-.-G-E-W-M-A-S-E' desc='TELAR' />
+<cot cot='a-.-G-E-W-M-A-S-R' desc='TLAR' />
+<cot cot='a-.-G-E-W-M-A-T-E' desc='TELAR' />
+<cot cot='a-.-G-E-W-M-A-T-R' desc='TLAR' />
+<cot cot='a-.-G-U-C-D-H-H' desc='Hawk' />
+<cot cot='a-.-G-U-C-D-H-P' desc='Patriot' />
+<cot cot='a-.-G-U-C-D-M-L-A' desc='Motorized (avenger)' />
+<cot cot='a-.-G-U-C-A-T-W-R' desc='Recovery' />
+<cot cot='a-.-G-U-C-A-W-W-R' desc='Recovery' />
+<cot cot='a-.-G-U-C-V-R-U-H' desc='Heavy' />
+<cot cot='a-.-G-U-C-V-R-U-L' desc='Light' />
+<cot cot='a-.-G-U-C-V-R-U-M' desc='Medium' />
+<cot cot='a-.-G-U-C-F-M-T-S' desc='Air assault' />
+<cot cot='a-.-G-U-C-F-M-T-A' desc='Airborne' />
+<cot cot='a-.-G-U-C-F-M-T-C' desc='Arctic' />
+<cot cot='a-.-G-U-C-F-M-T-O' desc='Mountain' />
+<cot cot='a-.-G-U-C-F-R-M-S' desc='Multi rocket self-propelled' />
+<cot cot='a-.-G-U-C-F-R-M-T' desc='Multi rocket towed' />
+<cot cot='a-.-G-U-C-F-R-M-R' desc='Multi rocket truck' />
+<cot cot='a-.-G-U-C-F-R-S-S' desc='Single rocket self-propelled' />
+<cot cot='a-.-G-U-C-F-R-S-T' desc='Single rocket towed' />
+<cot cot='a-.-G-U-C-F-R-S-R' desc='Single rocket truck' />
+<cot cot='a-.-G-U-C-F-T-C-D' desc='Dismounted' />
+<cot cot='a-.-G-U-C-F-T-C-M' desc='Tracked' />
+<cot cot='a-.-G-U-S-A-P-B-C' desc='Corps' />
+<cot cot='a-.-G-U-S-A-P-B-T' desc='Theater' />
+<cot cot='a-.-G-U-S-A-P-M-C' desc='Corps' />
+<cot cot='a-.-G-U-S-A-P-M-T' desc='Theater' />
+<cot cot='a-.-G-U-S-X-O-M-C' desc='Corps' />
+<cot cot='a-.-G-U-S-X-O-M-T' desc='Theater' />
+<cot cot='a-.-G-U-S-S-3-A-C' desc='Corps' />
+<cot cot='a-.-G-U-S-S-3-A-T' desc='Theater' />
+<cot cot='a-.-G-U-S-S-W-P-C' desc='Corps' />
+<cot cot='a-.-G-U-S-S-W-P-T' desc='Theater' />
+<cot cot='a-.-G-U-U-M-S-E-A' desc='Armored wheeled vehicle' />
+<cot cot='a-.-G-U-U-M-S-E-C' desc='Corps' />
+<cot cot='a-.-G-U-U-M-S-E-D' desc='Direction finding' />
+<cot cot='a-.-G-U-U-M-S-E-I' desc='Intercept' />
+<cot cot='a-.-G-U-U-M-S-E-J' desc='Jamming' />
+<cot cot='a-.-G-U-U-M-S-E-T' desc='Theater' />
+<cot cot='a-.-G-U-U-M-R-S-S' desc='SCM' />
+<cot cot='a-.-G-U-U-A-C-R-W' desc='Wheeled armored vehicle' />
+<cot cot='a-.-G-U-U-A-C-R-S' desc='Wheeled armored vehicle surveillance' />
+<cot cot='a-.-G-U-U-A-C-S-A' desc='Armor' />
+<cot cot='a-.-G-U-U-A-C-S-M' desc='Motorized' />
+<cot cot='a-.-G-U-U-A-C-C-K' desc='Mechanized' />
+<cot cot='a-.-G-U-U-A-C-C-M' desc='Motorized' />
+</types>

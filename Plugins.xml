@@ -1,0 +1,7 @@
+<Plugins>
+	<!-- Ordered Group; Last -->
+	
+	<!-- Beta -->
+	<Plugin path='Plugins/FiresTool.dll' />	
+	<Plugin path='Plugins/ATAKManager.dll' />
+</Plugins>
